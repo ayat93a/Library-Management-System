@@ -53,7 +53,7 @@ class LMS:
             ll.Issue_books()
         else:
             print(self.books_dict)
-            sys.exit() 
+            sys.exit('Have a happy reading !') 
 
 
     def Issue_books(self):
@@ -76,7 +76,7 @@ class LMS:
             ll = LMS('books_list.txt' , 'python')
             ll.choice()
         # print(self.books_dict)
-        
+
            
 lms = LMS('books_list.txt' , 'python')
 lms.Display_book()
